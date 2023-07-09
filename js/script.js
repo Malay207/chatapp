@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://chat-af6i.onrender.com');
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageinp');
 const messageContainer = document.querySelector(".container");
